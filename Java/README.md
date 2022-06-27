@@ -1,15 +1,36 @@
 # Java
 네트워크상에서 쓸 수 있도록 미국의 선 마이크로 시스템즈가 개발한
-`객체 지향 프로그래밍` 언어입니다.
+`객체 지향 프로그래밍` 언어
 ***
-## Class, Object, Instance?
-1. Class (클래스)
+## Java8 특징
+* Lambda : 하나의 메소드를 식으로 표현하는 것
+   * 코드의 간결성
+   * 내장된 메서드 사용가능
+```java
+Runnable java7Runner = new Runnable(){
+    public void run(){
+        System.out.println("Lambda");
+    }
+};
+Runnable java8Runner = () ->{
+    System.out.println("Lambda");
+};
+```
+* JDK 1.1 Calendar class의 문제점 해결 가능
+   * 불변객체가 아니여서 값이 수정될 수 있었으나 수정 불가능.
+   * 0~11월로 표현했어야 했는데 1~12로 표현 가능
+
+* Nashorn
+   * 새로운 js엔진 도입
+***
+## Class, Object, Instance
+* Class (클래스)
    * 객체를 만들어 내기 위한 `설계도`
    * 연관되어 있는 변수와 메서드의 집합
 
-2. Object (객체)
+* Object (객체)
    * 소프트웨어에 구현할 `대상`
-3. Instance (인스턴스)
+* Instance (인스턴스)
    * 소프트웨어에 구현된 구체적인 `실체`
    * 인스턴스는 객체에 포함된다고 볼 수 있음
    * 실제로 메모리로 할당된 상태
