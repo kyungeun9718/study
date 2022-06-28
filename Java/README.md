@@ -53,6 +53,7 @@ public class Main{
 
 ## 객체 지향 프로그램(OOP : Object Oriented Programming)
 
+### OOP의 4가지 특징
 1. 캡슐화
    * 실제로 구현한 부분을 외부에 나타내지 않게 하는 것
    * 클래스의 내부 변수와 메소드를 하나로 묶는 것
@@ -81,4 +82,15 @@ public class Main{
 4. 추상화
    * 공통된 속성이나 기능을 묶어서 이름을 붙이는 것
 
+### OOP의 5가지 원칙 (SOLID)
+#### S ( SRP: Single Responsibility Principle ) 단일책임 원칙
+  : 한 클래스는 하나의 책임만 가져야 한다.
+#### O ( OCP : OPEN Closed Principle) 개방폐쇄원칙
+  : 확장에는 열려있으나, 변경에는 닫혀있어야 한다.
+#### L (LSP : Liskov's Substitution Prinsiple) 리스코프 치환 원칙
+  : 객체는 프로그램의 정확성을 깨뜨리지 않으면서 하위 타입의 인스턴스로 바꿀 수 있어야 한다.
+#### I (ISP : Interface Segregation Prinsiple) 인터페이스 분리 원칙
+  : 특정 클라이언트를 위한 인터페이스 여러 개가 범용 인터페이스 하나보다 낫다.
+#### D (DIP: Dependency Inversion Prinsiple) 의존 역전 원칙
+  : 추상화에 의존하나, 구체화에 의존하면 안된다.
 ***
