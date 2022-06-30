@@ -33,4 +33,13 @@
     * 스크럼 마스터 : 객관적 시각에서 조언하는 가이드. 통제하는 것이 목표x
     * 개발팀 : 보통 최대 인원은 7-8명이 적당
 
-
+### XP(eXtreme Programming)
+* 짧고 반복적인 개발 주기, 단순 설계, 고객의 적극적인 참여를 통해 빠르게 설계하는 목적
+* 5가지 핵심 가치 : 의사소통, 단순성, 용기, 존중, 피드백
+   * Pair Programming(짝 프로그래밍) : 다른 사람과 함께 프로그래밍을 수행함으로써 개발에 대한 공동책임을 나눔
+   * Collective Ownership(공동 코드 소유) : 개발 코드에 대한 권한과 책임을 공동으로 소유
+   * Test-Driven Development(테스트 주도 개발)
+   * Whole Team
+   * Continuous Integration(계속적인 통합)
+   * Design Improvement or Refactoring(디자인 개선 또는 리팩토링)
+   * Small Releases
